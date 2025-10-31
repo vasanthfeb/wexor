@@ -224,7 +224,7 @@ body{
 
   /* background-image: radial-gradient(circle, #202020  0%, #252525 100%); */
   /* background-color: #202020; */
-  background: #0738B0;
+  
 background: radial-gradient(circle, rgba(7, 56, 176, 1) 0%, rgba(0, 0, 0, 1) 100%);
  background-attachment: fixed;
   background-repeat: no-repeat;
@@ -832,6 +832,9 @@ footer.footer::before {
 
 
 @media only screen and (max-width: 768px) {
+  .header_container{
+    height: 90px !important;
+  }
   
   .WexorBtn {
     width: 100%;
