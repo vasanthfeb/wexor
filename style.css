@@ -224,16 +224,17 @@ body{
 
   /* background-image: radial-gradient(circle, #202020  0%, #252525 100%); */
   /* background-color: #202020; */
-  
-background: radial-gradient(circle, rgba(7, 56, 176, 1) 0%, rgba(0, 0, 0, 1) 100%);
+   
+}
+
+.body_bg{
+  background: radial-gradient(circle, rgba(7, 56, 176, 1) 0%, rgba(0, 0, 0, 1) 100%);
  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden !important;
 
-  
- 
 }
-
 
 
 
@@ -471,7 +472,9 @@ li a:hover{
   color: #FF4500;
 }
 
-
+footer{
+  background-color: black !important;
+}
 .navbar-toggler-icon {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ff6700' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
